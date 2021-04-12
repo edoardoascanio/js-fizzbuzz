@@ -4,11 +4,11 @@ for (var i = 1; i <= 100; i++) {
     var multiplo3 = i % 3 === 0
     var multiplo5 = i % 5 === 0
 
-    if (numero = multiplo3) {
+    if ((numero = multiplo3) && (numero != multiplo5)) {
         console.log("Fizz")
     }
 
-    else if (numero = multiplo5) {
+    else if ((numero = multiplo5) && (numero != multiplo3))  {
         console.log("Buzz")
     }
 
