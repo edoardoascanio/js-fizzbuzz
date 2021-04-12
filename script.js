@@ -12,7 +12,7 @@ for (var i = 1; i <= 100; i++) {
         console.log("Buzz")
     }
 
-    else if (numero = multiplo3 && multiplo5) {
+    else if((numero = multiplo3)&&(numero = multiplo5)) {
         console.log("Fizz-Buzz")
     }
 
